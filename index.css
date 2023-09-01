@@ -26,12 +26,12 @@ ul .item-2{
 @media screen and (max-width: 500px) {
     header{
         background-color: #f6f5f2;
+        
     }
-
+    
     body {
-        width: 120vh;
+        width: 100vh;
     }
-
 }
 
 
