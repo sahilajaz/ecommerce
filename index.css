@@ -2,34 +2,16 @@ header{
     background-color: #f6f5f2;;
 }
 
-ul .item-1{
-     margin-left: 60px;
+
+
+
+
+.cardel{
+    gap: 200px;
 }
 
-ul .item-2{
-    margin-left: 540px;
-}
-
-
-.container-1 ul a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-.image-container img {
-    height: 600px;
-
-}
-
-@media screen and (max-width: 500px) {
-    header{
-        background-color: #f6f5f2;
-        
-    }
-    
-    body {
+@media screen and (max-width: 500px){
+    html{
         width: 100vh;
     }
 }

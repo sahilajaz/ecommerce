@@ -10,10 +10,11 @@
 </head>
 <body>
     <header>
-       <div class="row m-0">
-        <div class="col-md-12 clearfix">
-            <ul class="nav" style="list-style: none;">
-                <li class="item-1">
+        <div class="container">
+          <div class="row p-3">
+              <div class="col-sm-6 ">
+                <ul class="nav">
+                  <li class="item-1">
                     <a class="nav-link active" href="#" arial-current="page" style="color: #7f7d74;">my wishlist</a>
                 </li>
                 <li class="nav-item">
@@ -25,36 +26,54 @@
                 <li class="nav-item ">
                     <a class="nav-link active" href="#" style="color: #7f7d74;">checkout</a>
                 </li>
-                <li class="nav-item item-2 navigation-item">
-                    <a class="nav-link active" href="#"><span style="color:#cfb985">login</span> or <span style="color: #cfb985;">create an account</span></a>
-                </li>
-                <li class="nav-item  navigation-item " style="background-color: #cfb985; margin-right: 2px;">
-                    <a class="nav-link active link-light " href="#">US Dollar</a>
-                </li>
-                <li class="nav-item " style="background-color: #cfb985;">
-                    <a class="nav-link active link-light" href="#">Us Dollar</a>
-                </li>
                 </ul>
+                </div>
+
+                <div class="col-sm-6">
+                  <ul class="nav">
+                    <li class="nav-item ">
+                      <a class="nav-link active" href="#"><span style="color:#cfb985">login</span> or <span style="color: #cfb985;">create an account</span></a>
+                  </li>
+                  <li class="nav-item  navigation-item " style="background-color: #cfb985; margin-right: 2px;">
+                      <a class="nav-link active link-light " href="#">US Dollar</a>
+                  </li>
+                  <li class="nav-item " style="background-color: #cfb985;">
+                      <a class="nav-link active link-light" href="#">Us Dollar</a>
+                  </li>
+                  </ul>
+                </div>
+           </div>
         </div>
-       </div>
     </header>
 
     <main>
 
-        <section>
-            <nav class="nav nav-pills flex-column flex-sm-row m-auto">
-                <div class="container-fluid mt-4" style="margin-left: 80px;">
-                    <input type="text">
-                    <i class="fa-solid fa-magnifying-glass" style=" color: white; background-color: #cfb985; padding: 8px 3px 7px 5px; margin-left: -5px;"></i>
-                        <img src="http://portotheme.com/html/venedor/brown/images/logo5@2x.png" style="margin-left: 270px; height: 60px;" class="img-fluid">
-            
-                        <i class="fa-solid fa-cart-shopping " style="margin-left: 200px; background-color: white; color: #cfb985; border: 1px solid black; padding: 6.5px 5px 5px 5px; margin-right: -5px;"></i>
-                        <input type="text" placeholder="0items(s)-$0.00">
+            <section>
+              <div class="conatiner mt-4">
+                <div class="row m-auto">
+                  <div class="col-sm-4">
+                    <div class="input-group ">
+                      <input type="text"   placeholder="search" aria-label="Recipient's username" aria-describedby="button-addon2" class="px-3">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: #cfb985;"><i class="fa-solid fa-magnifying-glass" style=" color: white; "></i> </button>
                     </div>
-              </nav>
-        </section>
-        
-        <section>
+                  </div>
+                   
+                  <duv class=" col-sm-5">
+                    <img src="http://portotheme.com/html/venedor/brown/images/logo5@2x.png"  class="img-fluid" style="height: 40px;">
+                  </duv>
+
+                 <div class="col-sm-3">
+                  <div class="input-group ">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color: #cfb985;"><i class="fa-solid fa-cart-shopping " style="color: white;"></i></button>
+                    <input type="text" class="px-2" placeholder="0items(s)-$0.00" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+                 </div>
+
+                </div>
+              </div>
+            </section>
+       
+      
 
             <section class="mt-3">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,26 +84,26 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active fs-4" href="#">SHOP</a>
-                          </li>
-
-                          <li class="nav-item">
-                            <a class="nav-link active fs-4" href="#">PAGES</a>
+                            <a class="nav-link active fs-5" href="#">SHOP</a>
                           </li>
 
                           <li class="nav-item">
-                            <a class="nav-link active fs-4" aria-disabled="true">PORTFOLIO</a>
+                            <a class="nav-link active fs-5" href="#">PAGES</a>
                           </li>
 
                           <li class="nav-item">
-                            <a class="nav-link active fs-4" aria-disabled="true">ELEMENTS</a>
+                            <a class="nav-link active fs-5" aria-disabled="true">PORTFOLIO</a>
                           </li>
 
                           <li class="nav-item">
-                            <a class="nav-link active fs-4" aria-disabled="true">CONTACT US</a>
+                            <a class="nav-link active fs-5" aria-disabled="true">ELEMENTS</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-disabled="true">CONTACT US</a>
                           </li>
 
                         </ul>
@@ -97,7 +116,7 @@
 
         <section class="image-container mt-3">
             <div class="container ">
-                <div class="row " >
+                <div class="row" >
                     <div class="col-md-9">
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -123,14 +142,8 @@
         </section>
 
 
-        <section class="m-5">
-           <div class="card" style="width: 17rem; border: none; color: #cfb985;">
-            <i class="fa-sharp fa-solid fa-car-side " s style="margin: 2px 3px 20px 20px; align-self: center;" ></i>
-                <h5 class="card-title "> Responcive Design</h5>
-                <p class="card-text" style="text-align: justify;">Cras pellentesque, nisi ac tempus pellentesque, orci sem commodo urna,amet egestas ipsum orci sit amet tellus. Mauris eu ante felis.</p>
-            </div>
-           </div>
-        </section>
+
+        
 
 
         </main>
